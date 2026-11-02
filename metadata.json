@@ -1,0 +1,6 @@
+{
+  "name": "Dhand Stationery",
+  "description": "Professional e-commerce shopping website for Dhand Stationery featuring school supplies, stationery, art kits, backpacks, toys, and office essentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

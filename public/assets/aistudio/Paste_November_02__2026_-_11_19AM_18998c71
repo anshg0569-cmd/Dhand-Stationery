@@ -1,0 +1,844 @@
+# PROJECT PROMPT: DHAND STATIONERY — PROFESSIONAL ONLINE SHOPPING WEBSITE
+
+Act as an expert frontend web developer, UI/UX designer, and e-commerce website specialist. Create a complete, attractive, professional, and fully functional frontend-based shopping website for a real-life stationery business named **Dhand Stationery**.
+
+The website should look like a modern, professional e-commerce platform inspired by Amazon and Flipkart, but with its own unique branding and design. It must be suitable for a college Cloud Computing project and follow all the project guidelines provided below.
+
+Do not create a basic school project website. Build a polished, realistic, user-friendly shopping experience that looks like a genuine online store.
+
+---
+
+## 1. PROJECT INFORMATION
+
+**Business Name:** Dhand Stationery  
+**Business Type:** Stationery and General Products Store  
+**Project Category:** Business-Oriented E-Commerce Website  
+**Project Subject:** Cloud Computing  
+**Project Type:** Frontend-Only Website  
+**Backend:** Not Required  
+**Maximum Pages:** 4, including the login page  
+**Deployment Platform:** Netlify  
+**Target Audience:** School students, college students, parents, teachers, and customers looking for stationery, school supplies, small toys, and everyday accessories.
+
+### Products Available
+
+Dhand Stationery sells a wide range of products, including:
+
+- School notebooks and registers
+- Pens, pencils, erasers, sharpeners, and rulers
+- Geometry boxes and mathematical instruments
+- School bags and backpacks
+- Pencil boxes and stationery pouches
+- Crayons, sketch pens, colour pencils, and art supplies
+- Drawing books and craft materials
+- Small toys for children
+- Keyrings and decorative keychains
+- Files, folders, and document holders
+- Sticky notes, markers, highlighters, and office supplies
+- Glue sticks, scissors, tape, and other essential stationery
+- School accessories and everyday student essentials
+
+You may add other relevant products to make the catalogue look complete and realistic.
+
+Use realistic Indian rupee prices (₹) for all products.
+
+---
+
+## 2. STRICT PROJECT REQUIREMENTS
+
+Follow these requirements carefully:
+
+1. The website must be frontend-only.
+2. Do not create a backend, database, server, API, PHP application, or backend-dependent authentication.
+3. The website must contain a maximum of FOUR distinct pages.
+4. Login and registration functionality must be included within the four-page limit.
+5. Use real product photographs rather than illustrations, emojis, or artificial-looking placeholders.
+6. Add working frontend interactions to all major buttons and features.
+7. The website must be responsive on desktop, tablets, and mobile phones.
+8. Use clean, well-organized code that can be edited easily in Visual Studio Code.
+9. The website must be deployable on Netlify.
+10. Do not add features that require a backend to function.
+11. Do not create unnecessary additional HTML pages.
+12. Do not leave buttons non-functional or display unfinished sections.
+13. Use localStorage where appropriate to preserve demo login information, cart contents, wishlist items, and order history.
+14. Make the website visually impressive enough for a college project presentation.
+
+**Important:** Login and checkout must be clearly identified as frontend demonstrations. Do not claim that the website provides secure server-side authentication, processes real payments, or sends actual orders to a shop.
+
+---
+
+## 3. WEBSITE STRUCTURE — EXACTLY FOUR PAGES
+
+Create the following four pages:
+
+### PAGE 1: HOME PAGE — index.html
+
+This is the main landing page and the most important part of the website.
+
+It must look attractive, professional, modern, and ready for customers to use.
+
+#### A. Top Announcement Bar
+
+Add a slim announcement bar at the top with messages such as:
+
+- Your Everyday Stationery Store
+- Essential Supplies for School, College & Office
+- Explore Stationery, School Bags, Toys & Accessories
+
+Use a tasteful background colour and clear typography.
+
+#### B. Professional Header
+
+Create a responsive header containing:
+
+- Dhand Stationery logo
+- Business name
+- Product search bar
+- Search button
+- Home navigation
+- Shop navigation
+- Categories navigation
+- Login / Account button
+- Wishlist icon with item count
+- Shopping cart icon with item count
+
+Use professional icons from Lucide, Font Awesome, or another suitable icon library.
+
+The header should be clean and properly aligned, with a mobile-friendly navigation menu.
+
+The logo should be original and suitable for a stationery shop. It can combine a simple notebook, pencil, or stationery symbol with the text Dhand Stationery.
+
+#### C. Hero Section
+
+Create a visually impressive hero banner with a real photograph showing stationery products, colourful school supplies, notebooks, pens, or a school desk.
+
+Use a large heading such as:
+
+**"Everything You Need to Learn, Create & Grow."**
+
+Supporting text:
+
+"Discover quality stationery, school essentials, creative supplies, bags, toys, and everyday accessories at Dhand Stationery."
+
+Add two working buttons:
+
+- Shop Now
+- Explore Categories
+
+The buttons must navigate to the product catalogue or relevant sections.
+
+Use a professional layout with high-quality photography, attractive typography, and a clear call to action.
+
+#### D. Shop by Category
+
+Create visually appealing category cards with real photographs.
+
+Include these categories:
+
+1. School Stationery
+2. Pens & Writing
+3. Notebooks & Registers
+4. School Bags
+5. Art & Craft Supplies
+6. Kids' Toys
+7. Keyrings & Accessories
+8. Office Essentials
+
+Each category card must have:
+
+- A relevant photograph
+- Category name
+- Short description
+- Working navigation or filtering interaction
+
+When customers click a category, the product catalogue should display products from that category.
+
+#### E. Featured Products
+
+Display at least 12 featured products on the homepage.
+
+Each product card must include:
+
+- Real product photograph
+- Product name
+- Price in ₹
+- Optional original price and discount
+- Product category
+- Star rating for demonstration purposes
+- Add to Cart button
+- Wishlist heart icon
+- Quick View button
+
+Make the cards visually consistent, with proper image sizing, spacing, and hover effects.
+
+Do not use the same product image repeatedly to fill the catalogue.
+
+#### F. Promotional Banner
+
+Add an attractive promotional section, for example:
+
+"Make Every School Day Special"
+
+Supporting text:
+
+"Discover everyday essentials for learning, creativity, and fun."
+
+Include a working Shop Now button.
+
+Do not invent actual business discounts or offers as established facts. If you display a discount, label it as a sample promotional offer for the website demonstration.
+
+#### G. Best-Selling and Popular Products
+
+Add another product section highlighting popular stationery, school bags, art supplies, or children's accessories.
+
+Use a different selection of products from the featured products section wherever possible.
+
+#### H. Why Choose Dhand Stationery?
+
+Create four attractive feature cards:
+
+- Everyday Essentials
+- Products for Every Age
+- Convenient Shopping
+- Wide Product Variety
+
+Keep the descriptions concise and professional. Do not make unsupported claims about product certifications or business achievements.
+
+#### I. Newsletter-Style Section
+
+Add a simple promotional signup section where users can enter their email address.
+
+Since there is no backend, validate the email on the frontend and display a message such as:
+
+"Thank you! This is a demonstration signup. No email has been sent."
+
+Do not pretend that a real subscription was created.
+
+#### J. Footer
+
+Include:
+
+- Dhand Stationery logo and business description
+- Quick links
+- Product categories
+- Contact information section with editable placeholders
+- Shopping information
+- Return policy
+- Privacy policy
+- Terms and conditions
+- Copyright notice
+
+Do not invent the shop's actual address, phone number, email address, or social media accounts. Keep these details clearly marked as editable placeholders until the real information is supplied.
+
+Footer links should open the relevant section or informational page without creating additional pages.
+
+---
+
+### PAGE 2: SHOP PAGE — shop.html
+
+Create a complete product catalogue where customers can browse and explore all available products.
+
+The catalogue should contain at least **40 unique products** across all the categories mentioned above.
+
+#### Product Catalogue Requirements
+
+Each product must contain:
+
+- Unique product ID
+- Unique product name
+- Real product photograph
+- Price in Indian rupees
+- Category
+- Short description
+- Stock availability for demonstration
+- Rating for demonstration
+- Optional discount information
+
+Use realistic product names, such as:
+
+- Classic Ruled Notebook
+- Premium Ballpoint Pen Set
+- Wooden Pencil Pack
+- Geometric Drawing Box
+- Rainbow Colour Pencil Set
+- Kids' Cartoon School Bag
+- Compact Pencil Pouch
+- Creative Art Kit
+- Mini Educational Toy Set
+- Decorative Keyring Collection
+- A4 Document Folder
+- Highlighter Set
+- Sketch Pen Collection
+- Spiral Notebook
+- Craft Paper Pack
+
+Create many more unique products so the store feels complete.
+
+#### Filters
+
+Add working filters for:
+
+- All Products
+- School Stationery
+- Pens & Writing
+- Notebooks & Registers
+- School Bags
+- Art & Craft
+- Kids' Toys
+- Keyrings & Accessories
+- Office Essentials
+
+Also include:
+
+- Price range filter
+- Sort by price: Low to High
+- Sort by price: High to Low
+- Sort alphabetically
+- Sort by rating
+- Search by product name
+
+All filters must actually update the displayed products.
+
+#### Product Quick View
+
+When customers click a product image or Quick View button, open a professional modal containing:
+
+- Larger product image
+- Product name
+- Price
+- Description
+- Category
+- Quantity selector
+- Stock availability
+- Add to Cart button
+
+The modal must open and close correctly.
+
+#### Add to Cart
+
+The Add to Cart button must work.
+
+When a customer adds a product:
+
+- Update the cart item count.
+- Display a confirmation toast.
+- Save the cart in localStorage.
+- Prevent invalid quantities.
+- Allow the same product to increase in quantity rather than creating unnecessary duplicate entries.
+
+#### Wishlist
+
+Allow users to add or remove products from their wishlist.
+
+Save wishlist items in localStorage and provide visible feedback when a product is added or removed.
+
+#### Pagination or Load More
+
+Use a Load More button or pagination if needed to keep the catalogue organized.
+
+All products must remain accessible.
+
+---
+
+### PAGE 3: CART AND CHECKOUT PAGE — cart.html
+
+Create a complete shopping cart and checkout experience.
+
+This page must be accessible from the cart icon in the header.
+
+#### A. Shopping Cart
+
+Display:
+
+- Product image
+- Product name
+- Unit price
+- Quantity selector
+- Item subtotal
+- Remove button
+
+Customers must be able to increase and decrease quantities.
+
+The total price must update automatically.
+
+Cart contents must persist after refreshing the browser using localStorage.
+
+If the cart is empty, display an attractive empty-cart illustration or photograph, a friendly message, and a Continue Shopping button.
+
+#### B. Order Summary
+
+Show:
+
+- Subtotal
+- Sample discount, if applicable
+- Delivery charge
+- Final total
+
+Use Indian rupee formatting.
+
+Calculate all values correctly.
+
+If free delivery is demonstrated above a specified threshold, label the threshold as a sample store setting that can be edited.
+
+Do not add hidden charges.
+
+#### C. Customer Information Form
+
+Create a checkout form with:
+
+- Full name
+- Email address
+- Phone number
+- Delivery address
+- City
+- State
+- PIN code
+
+Validate required fields and show clear error messages.
+
+Use Indian phone-number and PIN-code validation where appropriate.
+
+#### D. Payment Method Demonstration
+
+Display payment options such as:
+
+- Cash on Delivery
+- UPI
+- Debit/Credit Card
+
+These must be demo-only options.
+
+Do not collect actual card details, UPI PINs, passwords, or sensitive payment credentials.
+
+Do not integrate real payment processing.
+
+For demonstration purposes, selecting a payment option and confirming the order should generate a sample order confirmation locally.
+
+#### E. Place Order
+
+When the customer clicks Place Order:
+
+1. Validate the form.
+2. Confirm that the cart contains products.
+3. Calculate the correct final total.
+4. Generate a unique demonstration order ID.
+5. Save the sample order in localStorage.
+6. Display a professional order confirmation modal or section.
+7. Show the products ordered and the final total.
+8. Clear the cart only after the demo order is successfully created.
+
+Clearly explain that the order is a frontend demonstration and has not been transmitted to the real shop.
+
+Do not claim that an actual purchase or payment has occurred.
+
+#### F. Order History
+
+Provide a section where users can view their previously created demonstration orders.
+
+Store these orders locally in the browser.
+
+Include a button to return to shopping.
+
+---
+
+### PAGE 4: LOGIN AND ACCOUNT PAGE — login.html
+
+Create a professional login and registration interface.
+
+This page must include login and registration functionality without requiring any backend.
+
+#### A. Login Form
+
+Include:
+
+- Email address
+- Password
+- Show/Hide Password button
+- Remember Me option
+- Login button
+- Switch to Registration option
+
+Validate the form and display useful error messages.
+
+#### B. Registration Form
+
+Include:
+
+- Full name
+- Email address
+- Password
+- Confirm password
+- Terms acceptance checkbox
+- Create Account button
+
+Validate:
+
+- Required fields
+- Correct email format
+- Password length
+- Matching passwords
+- Terms acceptance
+
+#### C. Frontend Demo Authentication
+
+Use localStorage to simulate account creation and login.
+
+After successful registration, show a confirmation message and allow the user to log in.
+
+After successful login:
+
+- Show the customer's name in the account interface.
+- Display a welcome message.
+- Provide a logout button.
+- Provide a link to the cart.
+- Provide access to saved wishlist items.
+- Provide access to demonstration order history.
+
+If a user is already logged in, display their account information instead of unnecessarily showing the login form.
+
+**Security clarification:** This is a college project demonstration, not secure production authentication. Browser-based localStorage is not secure for storing real passwords or sensitive account information. Use clearly labelled demo credentials or non-sensitive local demonstration data, and do not represent this feature as production-grade security.
+
+The login page must have a link to return to the homepage.
+
+---
+
+## 4. REAL PRODUCT PHOTOGRAPHS — VERY IMPORTANT
+
+The website must use real photographs of actual stationery products, school supplies, school bags, toys, keyrings, and other relevant merchandise.
+
+Do not use AI-generated illustrations, cartoon drawings, emojis, or plain coloured blocks in place of product photographs.
+
+### Image Requirements
+
+1. Use a different relevant photograph for each product whenever possible.
+2. Match every photograph to the correct product.
+3. Use school bag photographs for school bags.
+4. Use notebooks for notebooks.
+5. Use pens for pens.
+6. Use appropriate photographs for toys and keyrings.
+7. Use consistent aspect ratios for product cards.
+8. Use `object-fit: cover` or another suitable image treatment.
+9. Avoid distorted, stretched, blurry, or unrelated photographs.
+10. Add descriptive alt text to every product image.
+11. Include fallback handling if an image fails to load.
+12. Use real photographs from reliable image sources that permit the intended use.
+
+You may use suitable royalty-free images from sources such as Unsplash or Pexels, or other reliable image providers with appropriate usage rights.
+
+Use direct image URLs only when they are valid and permitted for use.
+
+Do not assume that an image URL works without checking it.
+
+If the AI Studio environment supports image research or asset generation, use it to help identify suitable real product photographs. Do not substitute artificial illustrations for the required real product images.
+
+For a more reliable deployment, organize images in a local `images` folder when downloadable image assets are available.
+
+Use descriptive filenames, such as:
+
+- `notebook-ruled.jpg`
+- `ballpoint-pens.jpg`
+- `school-bag.jpg`
+- `geometry-box.jpg`
+- `kids-toys.jpg`
+- `decorative-keyring.jpg`
+
+If local photographs are not available during the initial build, use verified remote photographs temporarily and clearly document how to replace them with real shop photographs later.
+
+**Important:** Do not falsely claim that photographs are from the actual Dhand Stationery shop unless they have been provided or verified.
+
+---
+
+## 5. DESIGN SYSTEM AND VISUAL APPEARANCE
+
+The website must look professional, attractive, and commercially realistic.
+
+### Preferred Design Direction
+
+Use a modern retail design with:
+
+- A clean white or warm off-white background
+- Deep navy or dark charcoal typography
+- Royal purple or indigo accents
+- Subtle pastel backgrounds
+- Attractive product cards
+- High-quality photography
+- Consistent spacing
+- Soft shadows
+- Rounded corners
+- Clear buttons
+- Modern icons
+- Smooth but restrained animations
+
+Avoid:
+
+- Excessive bright colours
+- Too many gradients
+- Very dark backgrounds across the entire website
+- Poor colour contrast
+- Oversized empty spaces
+- Childish cartoon styling
+- Emoji-based navigation
+- Excessive animations
+- Cluttered layouts
+- Repeated product photographs
+- Unreadable text
+- Generic-looking template designs
+
+The website should look suitable for a real stationery business while remaining attractive to students and families.
+
+### Typography
+
+Use professional fonts such as:
+
+- Inter
+- Poppins
+- DM Sans
+
+Use a clear hierarchy for headings, subheadings, prices, descriptions, and navigation labels.
+
+### Product Cards
+
+Each product card should have:
+
+- A consistent image area
+- Product name
+- Category label
+- Price
+- Optional original price
+- Optional discount badge
+- Wishlist button
+- Add to Cart button
+
+Add subtle hover effects without making the interface distracting.
+
+### Responsive Layout
+
+Ensure that:
+
+- Desktop displays products in a well-spaced grid.
+- Tablets display an appropriate number of columns.
+- Mobile screens display product cards without horizontal overflow.
+- Navigation adapts to small screens.
+- Search remains usable on mobile.
+- Modals fit within the viewport.
+- Buttons have comfortable touch targets.
+
+---
+
+## 6. FUNCTIONALITY CHECKLIST
+
+Before completing the project, verify all the following:
+
+### Navigation
+- Logo returns to the homepage.
+- Home link works.
+- Shop link works.
+- Category links work.
+- Login link works.
+- Cart link works.
+- Footer links work.
+- Mobile navigation opens and closes.
+
+### Product Catalogue
+- All 40 or more products display correctly.
+- Images match product names.
+- Search works.
+- Category filters work.
+- Price filters work.
+- Sorting works.
+- Quick View works.
+- Wishlist works.
+- Add to Cart works.
+
+### Shopping Cart
+- Cart count updates correctly.
+- Quantities can be changed.
+- Items can be removed.
+- Subtotals are correct.
+- Final total is correct.
+- Cart persists after refreshing.
+- Empty-cart state works.
+
+### Login and Registration
+- Registration validation works.
+- Password confirmation works.
+- Login validation works.
+- Demo login works.
+- Logout works.
+- Account information displays correctly.
+- Data persists as intended.
+
+### Checkout
+- Required fields are validated.
+- Invalid information produces helpful messages.
+- Payment options can be selected.
+- Demo orders can be created.
+- Order confirmation displays correctly.
+- Order history is saved locally.
+- The cart clears only after a successful demo order.
+
+### General
+- No broken navigation links.
+- No major JavaScript errors.
+- No unnecessary additional pages.
+- No backend dependencies.
+- No actual payment collection.
+- No misleading production-security claims.
+- No horizontal scrolling on mobile.
+- No buttons that appear functional but do nothing.
+
+---
+
+## 7. TECHNOLOGIES TO USE
+
+Use only frontend technologies:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+You may use a lightweight icon library such as Lucide or Font Awesome.
+
+Avoid unnecessary frameworks and package installations.
+
+Do not use:
+
+- PHP
+- Python
+- Node.js backend
+- Express
+- MySQL
+- MongoDB
+- Firebase Authentication
+- Backend APIs
+- Server-side sessions
+- Payment gateway integrations
+
+Use localStorage for appropriate frontend demonstration features.
+
+Structure the JavaScript cleanly, using reusable functions and a consistent product data format.
+
+Keep the product catalogue separate from the HTML markup where practical, for example in a JavaScript data file.
+
+---
+
+## 8. REQUIRED PROJECT FILE STRUCTURE
+
+Generate the complete project using a simple structure such as:
+
+Dhand-Stationery/
+│
+├── index.html
+├── shop.html
+├── cart.html
+├── login.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── products.js
+│   ├── main.js
+│   ├── shop.js
+│   ├── cart.js
+│   └── login.js
+├── images/
+│   └── product images
+└── README.md
+
+The four HTML files are the only website pages.
+
+Do not create additional HTML pages for About, Contact, Policies, Wishlist, or Order History. Implement those sections through homepage sections, modal windows, or components within the four existing pages.
+
+If you choose a different file structure, keep it simple and ensure that all file paths work after deployment.
+
+---
+
+## 9. NETLIFY DEPLOYMENT REQUIREMENTS
+
+Prepare the website for deployment on Netlify.
+
+The project must work as a static website without a backend or server configuration.
+
+Requirements:
+
+- `index.html` must be located at the project root.
+- CSS and JavaScript paths must be correct.
+- Image paths must work after deployment.
+- Navigation must use valid relative paths.
+- Do not require environment variables.
+- Do not require a database.
+- Do not require server-side processing.
+- Do not require a build command unless absolutely necessary.
+
+Include a `README.md` containing beginner-friendly deployment instructions.
+
+Explain how to:
+
+1. Save the generated files.
+2. Open the project in Visual Studio Code.
+3. Preview the website locally.
+4. Test the four pages.
+5. Create a Netlify account.
+6. Deploy the static project.
+7. Open the deployed website and test its functionality.
+
+Clearly explain that localStorage data belongs to the browser in which the website is used and does not automatically synchronize between customers or devices.
+
+---
+
+## 10. CODE QUALITY REQUIREMENTS
+
+Generate complete, working code for every required file.
+
+Do not provide only sample snippets, partial code, or a design description.
+
+Ensure:
+
+- Every HTML file is complete.
+- All CSS is included in the correct file.
+- All JavaScript files contain the required functionality.
+- All script paths are correct.
+- Product data is consistent across pages.
+- Cart totals use numeric calculations.
+- Form validation works.
+- localStorage operations handle missing or invalid data gracefully.
+- Images have fallback handling.
+- JavaScript does not depend on elements that do not exist.
+- All major buttons have real functionality.
+- The code is beginner-friendly and easy to maintain.
+
+Do not leave TODO comments in place of required functionality.
+
+Do not create fake API calls.
+
+Do not create a backend login that cannot work on Netlify.
+
+Do not claim that a demo checkout creates a real order for the shop.
+
+---
+
+## 11. FINAL DELIVERABLES
+
+Deliver the following:
+
+1. Complete Dhand Stationery website.
+2. Exactly four HTML pages.
+3. Professional homepage.
+4. Product catalogue containing at least 40 unique products.
+5. Real product photographs or verified temporary image URLs.
+6. Functional search, filters, sorting, wishlist, and cart.
+7. Frontend login and registration demonstration.
+8. Functional demo checkout.
+9. Local demonstration order history.
+10. Responsive design for mobile and desktop.
+11. Complete CSS and JavaScript.
+12. README with setup and Netlify deployment instructions.
+
+### Final Instruction
+
+Build the complete website, not merely a prototype screenshot.
+
+Start by creating the full file structure and then implement every file with complete code. Ensure the homepage looks excellent on first opening, the product catalogue is populated, and all major interactions work.
+
+The final result should be a professional, polished, realistic online shopping website for **Dhand Stationery**, suitable for demonstrating a real-life business use case as part of a college Cloud Computing project.
+
+Prioritize visual quality, working frontend functionality, real product photography, simple deployment, and strict compliance with the four-page limit.
